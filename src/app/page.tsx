@@ -11,7 +11,7 @@ import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatin
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
-import { Award, Beef, CheckCircle, CookingPot, Droplet, Flame, MapPin } from "lucide-react";
+import { Award, Beef, CheckCircle, CookingPot, Droplet, Flame } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -45,7 +45,6 @@ export default function LandingPage() {
       <HeroBillboardCarousel
       background={{ variant: "radial-gradient" }}
       title="Erbil's #1 Smashed Burger."
-      titleClassName="text-6xl font-extrabold"
       description="Fresh ingredients. Zero shortcuts. Every patty smashed to order."
       buttons={[
         { text: "See Our Menu", href: "#lineup" },
@@ -77,6 +76,7 @@ export default function LandingPage() {
   <div id="lineup" data-section="lineup">
       <ProductCardOne
       title="The Lineup"
+      description="Our signature smashed burgers made fresh every single day."
       animationType="slide-up"
       textboxLayout="split"
       gridVariant="three-columns-all-equal-width"
@@ -104,11 +104,13 @@ export default function LandingPage() {
       animationType="slide-up"
       gridVariant="bento-grid-inverted"
       useInvertedBackground={true}
+      textboxLayout="split"
       metrics={[
         { id: "1", value: "10/10", title: "Taste Rated", description: "Pure perfection.", icon: Award },
         { id: "2", value: "100%", title: "Freshness", description: "Never frozen.", icon: CheckCircle },
       ]}
       title="Built for Flavor"
+      description="Stats that prove we know our way around a griddle."
     />
   </div>
 
