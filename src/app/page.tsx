@@ -100,9 +100,13 @@ export default function LandingPage() {
   <div id="lineup" data-section="lineup">
       <ProductCardOne
       animationType="slide-up"
-      textboxLayout="default"
+      textboxLayout="inline-image"
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
+      titleSegments={[
+          { type: 'text', content: 'The Lineup' },
+          { type: 'image', src: 'https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CgWye4d6Z5efyhZLchtaCN7HBc/uploaded-1776809241387-igm5bf93.jpg', alt: 'Delicious menu selection' }
+      ]}
       products={[
         {
           id: "1",          name: "The OG Smash",          price: "12,000 IQD",          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-bacon-burger-with-salad-copy-space_23-2148784487.jpg"},
@@ -117,7 +121,6 @@ export default function LandingPage() {
         {
           id: "6",          name: "Jalapeño Poppers",          price: "6,000 IQD",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-corn-dog_23-2149388008.jpg"},
       ]}
-      title="The Lineup"
       description="Bold flavors. Hand-crafted. Ready for you."
     />
   </div>
