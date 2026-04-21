@@ -99,6 +99,7 @@ export default function LandingPage() {
 
   <div id="lineup" data-section="lineup">
       <ProductCardOne
+      title="The Lineup"
       animationType="slide-up"
       textboxLayout="inline-image"
       gridVariant="three-columns-all-equal-width"
