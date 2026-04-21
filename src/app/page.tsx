@@ -32,25 +32,15 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Menu",
-          id: "lineup",
-        },
+          name: "Menu",          id: "lineup"},
         {
-          name: "Reviews",
-          id: "reviews",
-        },
+          name: "Reviews",          id: "reviews"},
         {
-          name: "Story",
-          id: "story",
-        },
+          name: "Story",          id: "story"},
         {
-          name: "Location",
-          id: "visit",
-        },
+          name: "Location",          id: "visit"},
       ]}
       brandName="Smash'd"
     />
@@ -59,41 +49,26 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardCarousel
       background={{
-        variant: "radial-gradient",
-      }}
+        variant: "radial-gradient"}}
       title="Erbil's #1 Smashed Burger."
       description="Fresh ingredients. Zero shortcuts. Every patty smashed to order."
       buttons={[
         {
-          text: "See Our Menu",
-          href: "#lineup",
-        },
+          text: "See Our Menu",          href: "#lineup"},
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-hamburger-menu-composition_23-2148614045.jpg?_wi=1",
-          imageAlt: "smashed burger close up melting cheese",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-hamburger-menu-composition_23-2148614045.jpg",          imageAlt: "smashed burger close up melting cheese"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-beef-burger-with-salad_23-2148784488.jpg",
-          imageAlt: "smashed burger close up melting cheese",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-beef-burger-with-salad_23-2148784488.jpg",          imageAlt: "smashed burger close up melting cheese"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/assortment-delicious-hamburgers-white-table_23-2148614106.jpg",
-          imageAlt: "smashed burger close up melting cheese",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/assortment-delicious-hamburgers-white-table_23-2148614106.jpg",          imageAlt: "smashed burger close up melting cheese"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-cheeseburger-grilled-beef-patty-with-cheese-lettuce-burger-buns_141793-4806.jpg",
-          imageAlt: "smashed burger close up melting cheese",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/side-view-cheeseburger-grilled-beef-patty-with-cheese-lettuce-burger-buns_141793-4806.jpg",          imageAlt: "smashed burger close up melting cheese"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/pair-hands-holding-fresh-juicy-burger-with-lettuce-onions-cheese-black-background_181624-59244.jpg",
-          imageAlt: "smashed burger close up melting cheese",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/pair-hands-holding-fresh-juicy-burger-with-lettuce-onions-cheese-black-background_181624-59244.jpg",          imageAlt: "smashed burger close up melting cheese"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/fire-meat-burger-wooden-hemp_140725-7009.jpg",
-          imageAlt: "smashed burger close up melting cheese",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/fire-meat-burger-wooden-hemp_140725-7009.jpg",          imageAlt: "smashed burger close up melting cheese"},
       ]}
     />
   </div>
@@ -105,36 +80,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Never Frozen",
-          description: "You taste the freshness from the very first bite",
-          bentoComponent: "reveal-icon",
-          icon: Flame,
-          imageSrc: "http://img.b2bpic.net/free-vector/abstract-fire-logo_1083-46.jpg",
-          imageAlt: "flame icon minimalist",
+          title: "Never Frozen",          description: "You taste the freshness from the very first bite",          bentoComponent: "reveal-icon",          icon: Flame,
         },
         {
-          title: "Smashed to Order",
-          description: "Crispy caramelized crust. Juicy center. Every time.",
-          bentoComponent: "reveal-icon",
-          icon: Beef,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-hamburger-menu-composition_23-2148614045.jpg?_wi=2",
-          imageAlt: "flame icon minimalist",
+          title: "Smashed to Order",          description: "Crispy caramelized crust. Juicy center. Every time.",          bentoComponent: "reveal-icon",          icon: Beef,
         },
         {
-          title: "The Secret Weapon",
-          description: "Caramelized onions + special sauce that make all the difference",
-          bentoComponent: "reveal-icon",
-          icon: CookingPot,
-          imageSrc: "http://img.b2bpic.net/free-vector/hand-drawn-cheeseburger-with-lettuce_23-2147628299.jpg",
-          imageAlt: "flame icon minimalist",
+          title: "The Secret Weapon",          description: "Caramelized onions + special sauce that make all the difference",          bentoComponent: "reveal-icon",          icon: CookingPot,
         },
         {
-          title: "Free Drink Refills",
-          description: "Because generosity is always on the menu",
-          bentoComponent: "reveal-icon",
-          icon: Droplet,
-          imageSrc: "http://img.b2bpic.net/free-vector/onion-line-art-illustration-set-whole-half-sliced-diced-onions-culinary-kitchen_41066-4396.jpg",
-          imageAlt: "flame icon minimalist",
+          title: "Free Drink Refills",          description: "Because generosity is always on the menu",          bentoComponent: "reveal-icon",          icon: Droplet,
         },
       ]}
       title="Why Smash'd Hits Different"
@@ -150,41 +105,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "1",
-          name: "The OG Smash",
-          price: "12,000 IQD",
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-bacon-burger-with-salad-copy-space_23-2148784487.jpg",
-        },
+          id: "1",          name: "The OG Smash",          price: "12,000 IQD",          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-bacon-burger-with-salad-copy-space_23-2148784487.jpg"},
         {
-          id: "2",
-          name: "Jalapeño Burger",
-          price: "14,000 IQD",
-          imageSrc: "http://img.b2bpic.net/free-photo/dark-plate-with-waffles-grapes-dark-background_23-2148340373.jpg",
-        },
+          id: "2",          name: "Jalapeño Burger",          price: "14,000 IQD",          imageSrc: "http://img.b2bpic.net/free-photo/dark-plate-with-waffles-grapes-dark-background_23-2148340373.jpg"},
         {
-          id: "3",
-          name: "All American",
-          price: "15,000 IQD",
-          imageSrc: "http://img.b2bpic.net/free-photo/fresh-hamburger-wooden-board_140725-6629.jpg",
-        },
+          id: "3",          name: "All American",          price: "15,000 IQD",          imageSrc: "http://img.b2bpic.net/free-photo/fresh-hamburger-wooden-board_140725-6629.jpg"},
         {
-          id: "4",
-          name: "Golden Crunch Chicken",
-          price: "13,000 IQD",
-          imageSrc: "http://img.b2bpic.net/free-photo/big-sandwich-with-chicken-kebab-lettuce_2829-16567.jpg",
-        },
+          id: "4",          name: "Golden Crunch Chicken",          price: "13,000 IQD",          imageSrc: "http://img.b2bpic.net/free-photo/big-sandwich-with-chicken-kebab-lettuce_2829-16567.jpg"},
         {
-          id: "5",
-          name: "Curly Fries",
-          price: "5,000 IQD",
-          imageSrc: "http://img.b2bpic.net/free-photo/delicious-cookie-with-grapefruit-slices-black-plate-grey-surface_114579-61389.jpg",
-        },
+          id: "5",          name: "Curly Fries",          price: "5,000 IQD",          imageSrc: "http://img.b2bpic.net/free-photo/delicious-cookie-with-grapefruit-slices-black-plate-grey-surface_114579-61389.jpg"},
         {
-          id: "6",
-          name: "Jalapeño Poppers",
-          price: "6,000 IQD",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-corn-dog_23-2149388008.jpg",
-        },
+          id: "6",          name: "Jalapeño Poppers",          price: "6,000 IQD",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-corn-dog_23-2149388008.jpg"},
       ]}
       title="The Lineup"
       description="Bold flavors. Hand-crafted. Ready for you."
@@ -196,30 +127,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Chase H.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-brunette-woman-drinks-morning-coffee-cafe_613910-12134.jpg",
-        },
+          id: "1",          name: "Chase H.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-brunette-woman-drinks-morning-coffee-cafe_613910-12134.jpg"},
         {
-          id: "2",
-          name: "Villar A.",
-          imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-smiling-korean-barista-pouring-filter-coffee-prepare-batch-brew-client-cafe_1258-203378.jpg",
-        },
+          id: "2",          name: "Villar A.",          imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-smiling-korean-barista-pouring-filter-coffee-prepare-batch-brew-client-cafe_1258-203378.jpg"},
         {
-          id: "3",
-          name: "Narden A.",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-beautiful-asian-girl-barista-working-cafe-holding-cup-tea-giving-client-their-order_1258-199284.jpg",
-        },
+          id: "3",          name: "Narden A.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-beautiful-asian-girl-barista-working-cafe-holding-cup-tea-giving-client-their-order_1258-199284.jpg"},
         {
-          id: "4",
-          name: "Shanaz N.",
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-asian-woman-shows-thumbs-up-approves-likes-smth-good-stands-near-cafe-entrance-give-her_1258-199002.jpg",
-        },
+          id: "4",          name: "Shanaz N.",          imageSrc: "http://img.b2bpic.net/free-photo/happy-asian-woman-shows-thumbs-up-approves-likes-smth-good-stands-near-cafe-entrance-give-her_1258-199002.jpg"},
         {
-          id: "5",
-          name: "Bunny O.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-young-woman-showing-eclairs-bakery-counter_23-2148189123.jpg",
-        },
+          id: "5",          name: "Bunny O.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-young-woman-showing-eclairs-bakery-counter_23-2148189123.jpg"},
       ]}
       cardTitle="Straight From Erbil's Mouths"
       cardTag="Reviews"
@@ -235,32 +151,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "1",
-          value: "10/10",
-          title: "Taste Rated",
-          description: "Pure flavor perfection.",
-          icon: Award,
+          id: "1",          value: "10/10",          title: "Taste Rated",          description: "Pure flavor perfection.",          icon: Award,
         },
         {
-          id: "2",
-          value: "100%",
-          title: "Freshness",
-          description: "Never frozen. Ever.",
-          icon: CheckCircle,
+          id: "2",          value: "100%",          title: "Freshness",          description: "Never frozen. Ever.",          icon: CheckCircle,
         },
         {
-          id: "3",
-          value: "Top",
-          title: "Talked-About",
-          description: "Erbil's favorite.",
-          icon: Flame,
+          id: "3",          value: "Top",          title: "Talked-About",          description: "Erbil's favorite.",          icon: Flame,
         },
         {
-          id: "4",
-          value: "∞",
-          title: "Free Refills",
-          description: "Stay as long as you like.",
-          icon: Droplet,
+          id: "4",          value: "∞",          title: "Free Refills",          description: "Stay as long as you like.",          icon: Droplet,
         },
       ]}
       title="Built for Flavor"
@@ -285,8 +185,7 @@ export default function LandingPage() {
       <ContactSplit
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Visit Us"
       title="Your Next Favourite Burger Is One Street Away."
       description="Location: Erbil City Centre, Main St. Open Daily 12pm - 2am."
@@ -302,25 +201,17 @@ export default function LandingPage() {
       logoText="Smash'd Burger Erbil"
       columns={[
         {
-          title: "Links",
-          items: [
+          title: "Links",          items: [
             {
-              label: "Menu",
-              href: "#lineup",
-            },
+              label: "Menu",              href: "#lineup"},
             {
-              label: "Story",
-              href: "#story",
-            },
+              label: "Story",              href: "#story"},
           ],
         },
         {
-          title: "Social",
-          items: [
+          title: "Social",          items: [
             {
-              label: "Instagram",
-              href: "https://instagram.com",
-            },
+              label: "Instagram",              href: "https://instagram.com"},
           ],
         },
       ]}
