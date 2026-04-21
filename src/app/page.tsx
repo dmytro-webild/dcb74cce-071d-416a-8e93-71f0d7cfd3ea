@@ -71,7 +71,7 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-hamburger-menu-composition_23-2148614045.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-hamburger-menu-composition_23-2148614045.jpg?_wi=1",
           imageAlt: "smashed burger close up melting cheese",
         },
         {
@@ -117,7 +117,7 @@ export default function LandingPage() {
           description: "Crispy caramelized crust. Juicy center. Every time.",
           bentoComponent: "reveal-icon",
           icon: Beef,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-hamburger-menu-composition_23-2148614045.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-hamburger-menu-composition_23-2148614045.jpg?_wi=2",
           imageAlt: "flame icon minimalist",
         },
         {
